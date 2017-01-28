@@ -27,8 +27,8 @@ public class event_adapter  extends RecyclerView.Adapter<event_adapter.MyViewHol
     }
 
 
-    public event_adapter(List<event> moviesList) {
-        this.eventList = moviesList;
+    public event_adapter(List<event> eventList) {
+        this.eventList = eventList;
     }
 
     @Override
